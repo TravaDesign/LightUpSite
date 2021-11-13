@@ -233,6 +233,16 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  .contact-section {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contact-section img {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: auto;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -356,22 +366,14 @@ nav li a:hover {
     margin: 0 1em;
   }
   .contact-section {
-    position: relative;
+    margin: 0px;
+    padding: 0px;
   }
-  .contact-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .contact-right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 45%;
-    height: 100%;
-  }
-  .contact-right iframe {
-    height: 100%;
+  .contact-section img {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: auto;
   }
 }
 
@@ -393,6 +395,16 @@ nav li a:hover {
     background: url("../images/dots.svg") no-repeat;
     left: 4.5;
     top: 2em;
+  }
+  .contact-section {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contact-section img {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

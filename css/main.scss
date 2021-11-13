@@ -219,6 +219,16 @@ nav{
 
 
     @media only screen and (min-width:768px){
+        .contact-section{
+            margin: 0px;
+            padding: 0px;
+            img{
+                margin: 0;
+                padding: 0;
+                width: 1920px;
+                height: auto;
+            }
+        }
 
         .mobile-menu, .mobile-menu-exit{
             display: none;
@@ -341,23 +351,16 @@ nav{
         }
 
         .contact-section{
-            position: relative;
-            .container{
-                display: flex;
+            margin: 0px;
+            padding: 0px;
+            img{
+                margin: 0;
+                padding: 0;
+                width: 1920px;
+                height: auto;
             }
         }
 
-        .contact-right{
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: 45%;
-            height: 100%;
-
-            iframe{
-                height: 100%;
-            }
-        }
         
     }
 
@@ -386,6 +389,16 @@ nav{
                 top: 2em;
                 
 
+            }
+        }
+        .contact-section{
+            margin: 0px;
+            padding: 0px;
+            img{
+                margin: 0;
+                padding: 0;
+                width: 1920px;
+                height: auto;
             }
         }
 
