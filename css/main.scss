@@ -216,19 +216,10 @@ nav{
         margin: .5em;
         cursor: pointer;
     }
+    
 
 
     @media only screen and (min-width:768px){
-        .contact-section{
-            margin: 0px;
-            padding: 0px;
-            img{
-                margin: 0;
-                padding: 0;
-                width: 1920px;
-                height: auto;
-            }
-        }
 
         .mobile-menu, .mobile-menu-exit{
             display: none;
@@ -278,6 +269,21 @@ nav{
             }
         }
     }
+    .contact-right{
+        background: #0065FF;
+        text-align: center;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            text-align: center;
+            
+            
+        }
+    }
+    
 
     
     @media only screen and (min-width:1080px){
@@ -351,16 +357,37 @@ nav{
         }
 
         .contact-section{
-            margin: 0px;
-            padding: 0px;
-            img{
-                margin: 0;
-                padding: 0;
-                width: 1920px;
-                height: auto;
+            position: relative;
+            .container{
+                display: flex;
             }
         }
 
+        .contact-right{
+            background: #0065FF;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 45%;
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 4em;
+                text-align: center;
+                
+                
+            }
+
+            iframe{
+                height: 100%;
+            }
+        }
         
     }
 
@@ -391,14 +418,16 @@ nav{
 
             }
         }
-        .contact-section{
-            margin: 0px;
-            padding: 0px;
-            img{
-                margin: 0;
-                padding: 0;
-                width: 1920px;
-                height: auto;
+        .contact-right{
+            background: #0065FF;
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 4em;
+                text-align: center;
+                
+                
             }
         }
 
